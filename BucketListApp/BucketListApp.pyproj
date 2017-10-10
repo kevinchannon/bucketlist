@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>d9f4f437-bcec-44bf-9d1b-50f2d97d485a</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <Name>BucketListApp</Name>
+    <RootNamespace>BucketListApp</RootNamespace>
+    <InterpreterId>{23d1e0ba-211d-4bef-8629-76dd117d56b8}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="runserver.py" />
+    <Compile Include="BucketListApp\__init__.py" />
+    <Compile Include="BucketListApp\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BucketListApp\" />
+    <Folder Include="BucketListApp\static\" />
+    <Folder Include="BucketListApp\static\content\" />
+    <Folder Include="BucketListApp\static\fonts\" />
+    <Folder Include="BucketListApp\static\scripts\" />
+    <Folder Include="BucketListApp\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BucketListApp\static\content\signup.css" />
+    <Content Include="BucketListApp\templates\BucketList.html" />
+    <Content Include="BucketListApp\templates\signup.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="BucketListApp\static\content\bootstrap.css" />
+    <Content Include="BucketListApp\static\content\bootstrap.min.css" />
+    <Content Include="BucketListApp\static\content\site.css" />
+    <Content Include="BucketListApp\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="BucketListApp\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="BucketListApp\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="BucketListApp\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="BucketListApp\static\scripts\bootstrap.js" />
+    <Content Include="BucketListApp\static\scripts\bootstrap.min.js" />
+    <Content Include="BucketListApp\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="BucketListApp\static\scripts\jquery-1.10.2.js" />
+    <Content Include="BucketListApp\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="BucketListApp\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="BucketListApp\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="BucketListApp\static\scripts\jquery.validate.js" />
+    <Content Include="BucketListApp\static\scripts\jquery.validate.min.js" />
+    <Content Include="BucketListApp\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="BucketListApp\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="BucketListApp\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="BucketListApp\static\scripts\respond.js" />
+    <Content Include="BucketListApp\static\scripts\respond.min.js" />
+    <Content Include="BucketListApp\static\scripts\_references.js" />
+    <Content Include="BucketListApp\templates\about.html" />
+    <Content Include="BucketListApp\templates\contact.html" />
+    <Content Include="BucketListApp\templates\index.html" />
+    <Content Include="BucketListApp\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="BucketListVenv\">
+      <Id>{23d1e0ba-211d-4bef-8629-76dd117d56b8}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>BucketListVenv (Python 2.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
