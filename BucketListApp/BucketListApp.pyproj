@@ -43,6 +43,7 @@
     <Folder Include="BucketListApp\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BucketListApp\Credentials.json" />
     <Content Include="BucketListApp\static\content\signup.css" />
     <Content Include="BucketListApp\templates\BucketList.html" />
     <Content Include="BucketListApp\templates\signup.html" />

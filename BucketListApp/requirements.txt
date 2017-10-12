@@ -1,1 +1,4 @@
 Flask<1
+Flask-MySQL>=1.4.0
+Jinja>=2.9.6
+Wekzeug>=0.12.2

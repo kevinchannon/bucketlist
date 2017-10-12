@@ -4,7 +4,8 @@ Routes and views for the flask application.
 
 from datetime import datetime
 from flask import Flask, render_template, request, json
-from BucketListApp import app
+from werkzeug import generate_password_hash, check_password_hash
+from BucketListApp import app, mysql
 
 @app.route('/home')
 def home():
@@ -33,7 +34,21 @@ def signUp():
     _password = request.form['inputPassword']
 
     if _name and _email and _password:
-        return json.dumps({'html' : '<span>All fields good!!</span>'})
+        conn = mysql.connect()
+        cursor = conn.cursor()
+        _hashed_password = generate_password_hash(_password)
+        print "Hashed length: ", len(_hashed_password)
+
+        cursor.callproc('sp_createUser',(_name, _email, _hashed_password))
+
+        data = cursor.fetchall()
+        if len(data) is 0:
+            conn.commit()
+
+            return render_template('BucketList.html')
+            #return json.dumps({'message' : 'User created successfully'})
+        else:
+            return json.dumps({'error' : str(data[0])})
     else:
         return json.dumps({'html' : '<span>Enter the required fields</span>'})
 

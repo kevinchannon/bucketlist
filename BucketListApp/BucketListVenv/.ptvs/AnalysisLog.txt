@@ -2537,3 +2537,99 @@ System.FormatException: Input string was not in a correct format.
 2017-10-10T22:33:01: [WARNING] Library was set explicitly - skipping path detection
 2017-10-10T22:33:01: IncludeModulesFromModulePath = win32com
 2017-10-10T22:33:02: Deleting 0 files
+
+2017-10-11T21:52:03: Start analysis
+2017-10-11T21:52:03: [WARNING] Library was set explicitly - skipping path detection
+2017-10-11T21:52:03: IncludeModulesFromModulePath = win32com
+2017-10-11T21:52:05: Deleting 0 files
+2017-10-11T21:52:05: astropy.CallDepth = 0
+2017-10-11T21:52:05: matplotlib.CallDepth = 3
+2017-10-11T21:52:05: pandas.CallDepth = 0
+2017-10-11T21:52:05: sympy.CallDepth = 0
+2017-10-11T21:52:05: Start group "C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql" with 39 files
+2017-10-11T21:52:17: Parsing "pymysql.charset" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\charset.py")
+2017-10-11T21:52:17: Parsing "pymysql.connections" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\connections.py")
+2017-10-11T21:52:17: Parsing "pymysql.converters" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\converters.py")
+2017-10-11T21:52:17: Parsing "pymysql.cursors" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\cursors.py")
+2017-10-11T21:52:17: Parsing "pymysql.err" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\err.py")
+2017-10-11T21:52:17: Parsing "pymysql.optionfile" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\optionfile.py")
+2017-10-11T21:52:17: Parsing "pymysql.times" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\times.py")
+2017-10-11T21:52:17: Parsing "pymysql.util" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\util.py")
+2017-10-11T21:52:17: Parsing "pymysql._compat" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\_compat.py")
+2017-10-11T21:52:17: Parsing "pymysql._socketio" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\_socketio.py")
+2017-10-11T21:52:17: Parsing "pymysql" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\__init__.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.CLIENT" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\CLIENT.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.COMMAND" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\COMMAND.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.CR" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\CR.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.ER" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\ER.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.FIELD_TYPE" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\FIELD_TYPE.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.FLAG" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\FLAG.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants.SERVER_STATUS" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\SERVER_STATUS.py")
+2017-10-11T21:52:17: Parsing "pymysql.constants" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\constants\__init__.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.base" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\base.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_basic" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_basic.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_connection" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_connection.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_converters" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_converters.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_cursor" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_cursor.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_DictCursor" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_DictCursor.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_err" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_err.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_issues" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_issues.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_load_local" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_load_local.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_nextset" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_nextset.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_optionfile" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_optionfile.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.test_SSCursor" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\test_SSCursor.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\__init__.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\__init__.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb.capabilities" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\capabilities.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb.dbapi20" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\dbapi20.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_capabilities" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_capabilities.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_dbapi20" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_dbapi20.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_nonstandard" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\test_MySQLdb_nonstandard.py")
+2017-10-11T21:52:17: Parsing "pymysql.tests.thirdparty.test_MySQLdb" ("C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql\tests\thirdparty\test_MySQLdb\__init__.py")
+2017-10-11T21:52:17: Parsing complete
+2017-10-11T21:52:17: Analyzing "pymysql.charset"
+2017-10-11T21:52:17: Analyzing "pymysql.connections"
+2017-10-11T21:52:17: Analyzing "pymysql.converters"
+2017-10-11T21:52:17: Analyzing "pymysql.cursors"
+2017-10-11T21:52:17: Analyzing "pymysql.err"
+2017-10-11T21:52:17: Analyzing "pymysql.optionfile"
+2017-10-11T21:52:17: Analyzing "pymysql.times"
+2017-10-11T21:52:17: Analyzing "pymysql.util"
+2017-10-11T21:52:17: Analyzing "pymysql._compat"
+2017-10-11T21:52:17: Analyzing "pymysql._socketio"
+2017-10-11T21:52:17: Analyzing "pymysql"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.CLIENT"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.COMMAND"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.CR"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.ER"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.FIELD_TYPE"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.FLAG"
+2017-10-11T21:52:17: Analyzing "pymysql.constants.SERVER_STATUS"
+2017-10-11T21:52:17: Analyzing "pymysql.constants"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.base"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_basic"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_connection"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_converters"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_cursor"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_DictCursor"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_err"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_issues"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_load_local"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_nextset"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_optionfile"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.test_SSCursor"
+2017-10-11T21:52:17: Analyzing "pymysql.tests"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.capabilities"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.dbapi20"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_capabilities"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_dbapi20"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb.test_MySQLdb_nonstandard"
+2017-10-11T21:52:17: Analyzing "pymysql.tests.thirdparty.test_MySQLdb"
+2017-10-11T21:52:17: Starting analysis of 39 modules
+2017-10-11T21:52:18: Analysis complete
+2017-10-11T21:52:18: Saving group "C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql"
+2017-10-11T21:52:18: End of group "C:\dev\repos\personal\BucketListApp\BucketListVenv\Lib\site-packages\pymysql"
+2017-10-11T21:52:19: Deleting 2 files
+2017-10-11T21:52:19: Deleting "C:\dev\repos\personal\BucketListApp\BucketListVenv\.ptvs\pymysql\MySQLdb.idb"
+2017-10-11T21:52:19: Deleting "C:\dev\repos\personal\BucketListApp\BucketListVenv\.ptvs\pymysql\_mysql.idb"
