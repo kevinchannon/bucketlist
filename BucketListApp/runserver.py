@@ -7,7 +7,7 @@ from os import environ
 from BucketListApp import app, init_mysql
 
 if __name__ == '__main__':
-    if init_mysql():
+    if init_mysql(app):
         HOST = environ.get('SERVER_HOST', 'localhost')
         try:
             PORT = int(environ.get('SERVER_PORT', '5555'))

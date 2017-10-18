@@ -10,7 +10,7 @@ from flaskext.mysql import MySQL
 app = Flask(__name__)
 mysql = MySQL()
 
-def init_mysql():
+def init_mysql(app):
     # open credentials file and edit mysql.config
 
     SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -36,8 +36,8 @@ def init_mysql():
         app.config['MYSQL_DATABASE_DB'] = credentials["database"]
         app.config['MYSQL_DATABASE_HOST'] = credentials["host"]
 
-        return True
-
     mysql.init_app(app)
+        
+    return True
 
 import BucketListApp.views

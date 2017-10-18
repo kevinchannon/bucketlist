@@ -1,3 +1,6 @@
-.vs/
+BucketListApp/*.vs/*
+BucketListApp/*.suo
+
+BucketListApp/*.pyc
 
 BucketListApp/Credentials.json

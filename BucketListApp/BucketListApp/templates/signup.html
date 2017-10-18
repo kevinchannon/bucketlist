@@ -18,7 +18,12 @@
                     data: $('form').serialize(),
                     type: 'POST',
                     success: function (response) {
-                        console.log(response);
+                        response_json = jQuery.parseJSON(response);
+
+                        // redirect must be defined and must be true
+                        if ( response_json.redirect) {
+                            window.location.replace(response_json.redirect_url);
+                        }
                     },
                     error: function (error) {
                         console.log(error);

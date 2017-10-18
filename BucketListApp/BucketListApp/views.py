@@ -37,7 +37,6 @@ def signUp():
         conn = mysql.connect()
         cursor = conn.cursor()
         _hashed_password = generate_password_hash(_password)
-        print "Hashed length: ", len(_hashed_password)
 
         cursor.callproc('sp_createUser',(_name, _email, _hashed_password))
 
@@ -45,8 +44,9 @@ def signUp():
         if len(data) is 0:
             conn.commit()
 
-            return render_template('BucketList.html')
-            #return json.dumps({'message' : 'User created successfully'})
+            the_json = json.dumps({'message' : 'User created successfully', 'redirect': True, 'redirect_url': request.url_root + 'bucket'})
+
+            return the_json
         else:
             return json.dumps({'error' : str(data[0])})
     else:
