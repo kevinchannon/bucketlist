@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\dev\repos\personal\BucketListApp\BucketListVenv"
+set "VIRTUAL_ENV=c:\dev\repos\personal\BucketListApp\BucketListVenv"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

@@ -14,6 +14,7 @@ package_index
 bootstrap_install_from
 dist
 unicode_utils
+dep_util
 msvc
 run_2to3_on_doctests
 py31compat
@@ -39,7 +40,7 @@ py33compat
 setuptools
 Distribution
 os
-dep_util
+build_meta
 windows_support
 find_packages
 __version__

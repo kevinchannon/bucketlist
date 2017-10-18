@@ -1,5 +1,6 @@
 alias
-install_egg_info
+bdist
+dist_info
 install
 saveopts
 bdist_egg
@@ -12,7 +13,7 @@ install_lib
 install_scripts
 build_clib
 test
-bdist
+install_egg_info
 upload
 build_ext
 build_py
