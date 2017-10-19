@@ -12,7 +12,6 @@
     <script>
         $(function () {
             $('#btnSignUp').click(function () {
-
                 $.ajax({
                     url: '/signUp',
                     data: $('form').serialize(),
@@ -21,8 +20,10 @@
                         response_json = jQuery.parseJSON(response);
 
                         // redirect must be defined and must be true
-                        if ( response_json.redirect) {
+                        if ( response.redirect != undefined && response_json.redirect) {
                             window.location.replace(response_json.redirect_url);
+                        } else {
+                            console.log("An unexpected error occured during sign-up");
                         }
                     },
                     error: function (error) {
